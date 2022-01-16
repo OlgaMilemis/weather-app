@@ -18,6 +18,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+h1 {
+  color: indianred;
+}
 
 @keyframes App-logo-spin {
   from {
