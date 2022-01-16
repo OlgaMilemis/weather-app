@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import Loader from "react-loader-spinner";
 
 export default function Weather(props) {
   function showWeather(response) {
@@ -13,13 +12,5 @@ export default function Weather(props) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${props.city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(showWeather);
 
-  return (
-    <Loader
-      type="Rings"
-      color="#00BFFF"
-      height={80}
-      width={80}
-      timeout={3000}
-    />
-  );
+  return <h2>Hello also from weather</h2>;
 }
