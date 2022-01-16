@@ -3,7 +3,7 @@ import "./Weather.css";
 
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer className="Footer">
       <small>
         {" "}
         <a
