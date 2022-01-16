@@ -5,7 +5,8 @@ export default function Footer() {
     <footer className="footer">
       <a href="" rel="noreferrer" target="_blank">
         Open source code
-      </a>{" "}
+      </a>
+      {" https://github.com/OlgaMilemis/weather-app"}
       by Caro Gierich
     </footer>
   );
