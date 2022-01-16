@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <header className="App-header">
         <h1>Hello React!</h1>
-        <Weather city="Paris" />
+        <Weather city="Berlin" />
         <Footer />
       </header>
     </div>
